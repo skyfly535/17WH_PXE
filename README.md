@@ -30,6 +30,7 @@ vagrant up pxeserver
 
 Сначала проверяем работу WEB серврера
 
+![WEB](https://user-images.githubusercontent.com/114483769/235338978-e18218eb-81da-4c0d-a498-d61a8b82fa33.png)
 
 
 После запускаем `pxeclient`
@@ -39,12 +40,14 @@ vagrant up pxeclient
 ```
 и смотрим вывод меню загрузки
 
+![VB-загрузка](https://user-images.githubusercontent.com/114483769/235338985-79164fa8-52cc-42c2-83f3-6e4a6d58e653.png)
 
 выбираем загрузку по умолчанию --> `Auto-install CentOS 8.4`
 
-
+![kickstart_wait](https://user-images.githubusercontent.com/114483769/235338998-61a2a277-71d2-4911-a82d-c17f7563d238.png)
 
 начинается процесс установки в автоматическом режиме
 
+![kickstart_complete](https://user-images.githubusercontent.com/114483769/235339004-730edf4a-5245-4544-919f-548d0782f78c.png)
 
 установка завершена, необходима перезагрузка.
